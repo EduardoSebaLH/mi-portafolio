@@ -66,7 +66,7 @@ a:hover { text-decoration: underline; }
   margin-top: 20px;
   font-style: italic;
   font-size: 1.1em;
-  color: #44db50;
+  color: #707c71;
 }
 
 .subtitulo { font-size: 1.2em; }
@@ -172,7 +172,7 @@ header::before {
 .cinta-skills {
   display: flex;
   gap: 40px;
-  animation: deslizarCinta 15s linear infinite;
+  animation: deslizarCinta 60s ease-in-out infinite;
   width: max-content;
 }
 
@@ -200,10 +200,27 @@ header::before {
   0% {
     transform: translateX(0);
   }
+  50% {
+    transform: translateX(-100%);
+  }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(0);
   }
 }
+
+/*Pausar la animación al pasar el mouse*/
+.cinta-skills:hover {
+  animation-play-state: paused;
+}
+/*Efecto visual al pasar sobre cada ícono*/
+.cinta-skills > div:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background-color: #f0f8ff;
+  border-radius: 8px;
+}
+
 
 #typewriter {
   font-weight: 500;
