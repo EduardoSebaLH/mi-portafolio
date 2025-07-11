@@ -12,8 +12,8 @@ document.querySelectorAll('nav a').forEach(link => {
 // 💡 Efecto máquina de escribir animando frases cíclicas
 document.addEventListener("DOMContentLoaded", () => {
   const frases = [
-    "Técnico en Informática",
-    "Especialista en Soporte Técnico",
+    "Técnico en programación y análisis de sistemas",
+    "Soporte Técnico",
     "Estudiante de Ingeniería en Informática"
   ];
 

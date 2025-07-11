@@ -66,7 +66,7 @@ a:hover { text-decoration: underline; }
   margin-top: 20px;
   font-style: italic;
   font-size: 1.1em;
-  color: #ffc107;
+  color: #44db50;
 }
 
 .subtitulo { font-size: 1.2em; }
@@ -189,7 +189,7 @@ header::before {
 .cinta-skills {
   display: flex;
   gap: 40px;
-  animation: deslizarCinta 30s linear infinite;
+  animation: deslizarCinta 15s linear infinite;
   width: max-content;
 }
 
