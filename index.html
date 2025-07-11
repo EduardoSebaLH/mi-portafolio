@@ -8,6 +8,13 @@
   <link rel="stylesheet" href="css/style.css" />
   <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 </head>
 <body>
 
@@ -177,12 +184,37 @@
     </section>
 
   <section id="contacto" class="seccion gris">
-    <h2>👤Contacto</h2>
+    <h2  style="text-align: center;">👤Contacto</h2>
     <ul class="contacto">
       <li><strong>📧 Email:</strong> <a href="mailto:edusebalh@gmail.com">edusebalh@gmail.com</a></li>
       <li><strong>📞Teléfono:</strong> <a href="https://wa.me/56930790746" target="_blank">+56 9 3079 0746</a></li>
       <li><strong>💼 LinkedIn:</strong> <a href="https://www.linkedin.com/in/eduardo-lizana" target="_blank">/eduardo-lizana</a></li>
     </ul>
+  </section>
+
+ <section id="cv" class="seccion gris">
+  <h2 style="text-align: center;">Currículum Vitae</h2>
+
+  <div class="swiper slider-cv">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="cv/CV-visual.jpg" alt="CV visual página 1">
+        <a href="cv/CV.pdf" download class="boton-descarga">Descargar CV Visual</a>
+      </div>
+      <div class="swiper-slide">
+        <img src="cv/CV_page-0001.jpg" alt="CV plano página 1">
+        <a href="cv/CV-visual.pdf" download class="boton-descarga">Descargar CV Plano para filtros ATS</a>
+      </div>
+      <div class="swiper-slide">
+        <img src="cv/CV_page-0002.jpg" alt="CV plano página 2">
+        <a href="cv/CV-visual.pdf" download class="boton-descarga">Descargar CV Plano para filtros ATS</a>
+      </div>
+    </div>
+
+    <!-- Flechas de navegación -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
   </section>
 
   <footer>

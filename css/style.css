@@ -158,6 +158,7 @@ nav {
 .contacto {
   list-style: none;
   padding: 0;
+  text-align: center;
 }
 .contacto li {
   margin-bottom: 10px;
@@ -316,3 +317,41 @@ header::before {
   background-color: #ffc107;
   color: #000;
 }
+
+.slider-cv {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.swiper-slide img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin-bottom: 15px;
+}
+
+.boton-descarga {
+  display: inline-block;
+  background-color: #1e2c3a;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: background 0.3s ease;
+  text-align: center;
+}
+

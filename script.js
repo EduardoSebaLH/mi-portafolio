@@ -55,3 +55,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
   escribir(); // Inicia el ciclo
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const swiper = new Swiper('.swiper', {
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    effect: 'slide', // Puedes cambiar a 'fade', 'cube', 'coverflow', etc.
+    speed: 600, // Transición suave
+  });
+});
